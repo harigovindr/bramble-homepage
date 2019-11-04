@@ -1,0 +1,42 @@
+#image{
+  margin: 300px 200px 2px 550px;
+}
+#sButton{
+  margin: 5px 200px 200px 480px;  
+}
+#sButton button{
+  margin: 10px 0px 200px 20px;  
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 11px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
